@@ -92,3 +92,5 @@ class Neuron {
 	learn(iterationCallback=()=>{}, trainingSet=this.trainingSet) {}
 
 }
+
+module.exports = Neuron;
