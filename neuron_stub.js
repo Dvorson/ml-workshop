@@ -91,4 +91,13 @@ class Neuron {
 	 */
 	learn(iterationCallback=()=>{}, trainingSet=this.trainingSet) {}
 
+	/**
+	 * Метод получения результата на новой выборке
+	 * @param {Array} inputs - значения нв входе
+	 *
+	 */
+	predict(inputs) {
+    	return this.evaluate([...inputs,1]);
+  	}
+
 }
