@@ -1,4 +1,4 @@
-const Perceptron = require('./perceptron');
+const Perceptron = require('./neuron_stub');
 const set = [
   {
     inputs: [32, 175],
