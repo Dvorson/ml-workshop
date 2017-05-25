@@ -6,7 +6,7 @@ class Neuron {
 	 *
 	 * @public
 	 */
-	constructor(bias=1, learningRate=0.1, weigths=[]) {
+	constructor(bias=1, learningRate=0.1, weights=[]) {
 		this.bias = bias;
 		this.learningRate = learningRate;
 		this.weights = weights;
@@ -92,5 +92,3 @@ class Neuron {
 	learn(iterationCallback=()=>{}, trainingSet=this.trainingSet) {}
 
 }
-
-module.exports = Neuron;
